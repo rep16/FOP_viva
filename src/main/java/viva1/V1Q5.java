@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class V1Q5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter Spacecraft Name: ");
+        System.out.println("Enter Spacecraft Name: ");
         String name = input.nextLine();
         double fuelUsed, distance;
         int type;

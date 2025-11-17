@@ -8,13 +8,13 @@ public class V1Q1 {
         // Program ask student to enter their hours studied, slept, and numbers of breaks taken
         // Then, calculate and display their productivity score based on the formula below: score = (hours studied * 2) + (hours slept) - (number of breaks taken * 0.5)
         Scanner input = new Scanner(System.in); 
-        System.out.print("Enter your name: ");
+        System.out.println("Enter your name: ");
         String name = input.nextLine();
-        System.out.print("Enter hours studied: ");
+        System.out.println("Enter hours studied: ");
         double hours_studied = input.nextDouble(); 
-        System.out.print("Enter hours slept: ");
+        System.out.println("Enter hours slept: ");
         double hours_slept = input.nextDouble();   
-        System.out.print("Enter number of breaks taken: "); 
+        System.out.println("Enter number of breaks taken: "); 
         double number_of_breaks = input.nextDouble();
         input.close();
 

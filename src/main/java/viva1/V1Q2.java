@@ -18,7 +18,7 @@ public class V1Q2 {
 
             double litersConsumed;
             while (true) {
-                System.out.print("\n[STEP 1] Enter liters of water consumed (L): ");
+                System.out.println("[STEP 1] Enter liters of water consumed (L): ");
                 if (scanner.hasNextDouble()) {
                     litersConsumed = scanner.nextDouble();
                     scanner.nextLine(); 
