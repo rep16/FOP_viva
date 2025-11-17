@@ -21,17 +21,16 @@ public class V1Q8 {
             do{
                 System.out.println("Enter steps for Day " + i + " : ");
                 steps = sc.nextInt();
-                
-                if(steps > maxSteps){
-                    maxSteps = steps;
-                    maxDay = i;
-                }
+                               
                 if(steps <= 0 || steps > 50000){
                     System.out.println("Invalid input , please enter steps within range 0-50000 ");
                 }
                 
             }while(steps <= 0 || steps > 50000);
-            
+            if(steps > maxSteps){
+                    maxSteps = steps;
+                    maxDay = i;
+                }
             totalSteps += steps;
         }
         average = totalSteps / 7;

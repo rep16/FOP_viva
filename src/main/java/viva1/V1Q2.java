@@ -21,7 +21,7 @@ public class V1Q2 {
                 System.out.println("[STEP 1] Enter liters of water consumed (L): ");
                 if (scanner.hasNextDouble()) {
                     litersConsumed = scanner.nextDouble();
-                    scanner.nextLine(); 
+                    //scanner.nextLine(); 
                     
                     if (litersConsumed == 0) {
                         System.out.println("Thank you for using the Water Billing System. Goodbye!");

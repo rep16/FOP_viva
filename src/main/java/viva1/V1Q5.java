@@ -13,13 +13,13 @@ public class V1Q5 {
 
         while(!name.equalsIgnoreCase("STOP")){
             
-        System.out.print("Enter distance travelled (km):");
+        System.out.println("Enter distance travelled (km):");
         distance = input.nextDouble();
         if(distance <= 0){
             System.out.println("Invalid input! Distance travelled must be greater than zero.");
             return;
         } else {
-        System.out.print("Enter fuel used:");
+        System.out.println("Enter fuel used:");
         fuelUsed = input.nextDouble();
       
         if(fuelUsed <= 0){
@@ -84,7 +84,7 @@ public class V1Q5 {
     }
     input.nextLine(); // Consume newline
     System.out.println();
-    System.out.print("Enter Spacecraft Name (or type 'STOP' to finish): ");
+    System.out.println("Enter Spacecraft Name (or type 'STOP' to finish): ");
     name = input.nextLine();
     }
     System.out.println("Program terminated.");
